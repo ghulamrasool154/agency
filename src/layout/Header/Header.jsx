@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Header.css";
 import HeaderLogo from "../../assests/images/logo.svg";
 import { Link } from "react-scroll/modules";
-import { NavLink } from "react-router-dom";
+import { Link as ReactLink } from "react-router-dom";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -40,13 +40,13 @@ const Header = () => {
                 <i className="fa-solid fa-phone-flip"></i>
                 <span className="number">+92 (345) 00 00 000</span>
               </span>
-              <NavLink
+              <ReactLink
                 to="#"
                 target="_blank"
                 className="callbeback"
               >
                 call me back
-              </NavLink>
+              </ReactLink>
             </div>
           </div>
         </div>
