@@ -1,0 +1,14 @@
+.advantage-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.discription{
+  margin: 0;
+  color: #BCBEC0;
+  font-family: 'Myriad Pro Regular';
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}

@@ -1,0 +1,180 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+header .top {
+  background-color: #212121;
+  padding: 10px 0;
+}
+
+header .top .right {
+  text-align: end;
+}
+
+header .top .icon {
+  background-color: #303030;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+header .top .icon i {
+  color: #bcbec0;
+}
+
+header .top span.icons {
+  font-size: 17px;
+  color: #8dc63f;
+  margin-left: 20px;
+}
+
+header .top span.icons .number {
+  color: #f1f2f2;
+  font-family: "Myriad Pro Regular";
+  padding-left: 10px;
+}
+
+header .top .callbeback {
+  background: #8dc63f;
+  padding: 8px 30px 3px 30px;
+  border-radius: 5px;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Myriad Pro Regular";
+  text-transform: uppercase;
+  display: inline-block;
+  color: #000000;
+  box-shadow: 0px 5px 0px 0px #668e19;
+}
+header .top .callbeback:hover {
+  color: #000000;
+}
+
+header .bottom {
+  padding: 20px 0;
+  background-color: white;
+  border-bottom: 1px solid #d2d3d5;
+}
+header .bottom .logo {
+  width: 250px;
+  max-width: 100%;
+}
+.navbarside ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobilemenu {
+  display: none;
+}
+
+.mobilemenulist ul {
+  list-style: none;
+}
+.mobilemenulist ul a.navlink,
+.navbarside ul a.navlink {
+  font-family: "Myriad Pro Semibold";
+  font-size: 16px;
+  padding-left: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.navbarside ul a.navlink:hover {
+  font-family: "Myriad Pro bold";
+  font-size: 16px;
+}
+
+.responsiveicons {
+  display: none;
+}
+
+/* mobile menu */
+.mobilemenu {
+  background: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.mobilemenu.show {
+  visibility: hidden;
+}
+.mobilemenulist.show {
+  display: none;
+}
+.mobilemenu .closeicon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: black;
+  width: 30px;
+  color: white;
+  line-height: 25px;
+  text-align: center;
+}
+
+.mobilemenulist {
+  background: #fff;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.5s;
+  width: 300px;
+}
+/* responsie */
+
+@media screen and (max-width: 993px) {
+  .mobilemenu {
+    display: block;
+    z-index: 5;
+  }
+  .navbarside,
+  header .top .callbeback {
+    display: none;
+  }
+  .responsiveicons {
+    float: right;
+    background: black;
+    width: 50px;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .responsiveicons i {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .top {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .bottom .logo {
+    width: 200px;
+  }
+  .responsiveicons {
+    width: 40px;
+    height: 30px;
+  }
+}

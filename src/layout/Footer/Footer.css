@@ -1,0 +1,93 @@
+footer{
+    background-color: #668E19;
+}
+
+footer h2{
+        font-family: 'Myriad Pro Bold';
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-bottom: 20px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer p, footer a, footer li {
+    color: #fffeff;
+    font-size: 16px;
+    font-family: 'Myriad Pro Regular';
+    text-decoration: none;
+    line-height: 26px;
+}
+.footerservice {
+    margin-left: 70px;
+}
+.imgsize {
+    margin-bottom: 35px;
+}
+
+
+footer .followus .icon {
+    background-color: #303030;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+footer .followus .icon i {
+    color: #BCBEC0;
+}
+
+
+.followus {
+    margin-top: 30px;
+}
+
+p.copyright {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+
+}
+
+
+
+.footeright .icons{
+    font-size: 17px;
+    color: #F1F2F2;
+}
+.footeright .number{
+    font-family: 'Myriad Pro Regular';
+    padding-left: 10px;
+}
+
+
+@media screen and (max-width : 1200px) {
+    footer h2{
+        font-size: 25px;
+    }
+    .footerservice{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width : 993px){
+
+    .footeright{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width : 768px){
+    .footerservice,
+    .footeright{
+        margin-left: 0;
+    }
+    footer{
+        text-align: center;
+    }
+    
+}

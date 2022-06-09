@@ -1,0 +1,36 @@
+.contactus {
+  text-align: center;
+}
+
+.contactSect {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.iconsss {
+  display: block;
+  margin: 20px 0;
+}
+
+.iconsss,
+.contactSect .icons {
+  font-size: 17px;
+  color: #8dc63f;
+}
+.iconsss span,
+.contactSect .icons span {
+  color: #251f21;
+  font-family: "Myriad Pro Regular";
+  padding-left: 10px;
+}
+
+.location .container {
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .contactSect {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,66 @@
+
+
+.servicebox {
+    width: 24%;
+    text-align: center;
+    background: #f2f2f2;
+    border-radius: 10px;
+    padding: 0 30px 30px 30px;
+    position: relative;
+}
+.service-img {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    right: 0;
+    width: 80px;
+    margin: auto;
+}
+.service-img img{
+    width: 100%;
+}
+.service-context {
+    padding-top: 50px;
+}
+
+
+
+/*  */
+.servicebox .service-context h2{
+    font-size: 20px;
+    font-family: 'Myriad Pro Semibold';
+    text-transform: uppercase;
+    line-height: normal;
+    margin: 15px 0;
+    color: #000000;
+}
+
+.servicebox .service-context p{
+    margin: 0;
+    color: #BCBEC0;
+    font-family: 'Myriad Pro Regular';
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.servicebox .service-context a{
+    font-family: 'Myriad Pro Semibold';
+    text-transform: capitalize;
+    line-height: normal;
+    color: #668E19;
+    text-decoration: none
+}
+
+
+@media screen  and (max-width : 1200px){
+    .servicebox{
+        width: 49%;
+        margin-bottom: 50px;
+    }
+    
+}
+@media screen  and (max-width : 600px){
+    .servicebox{
+        width: 100%;
+    }
+}

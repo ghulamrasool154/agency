@@ -1,0 +1,38 @@
+.whyus{
+    background-image: url('../../assests/images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center bottom;
+    padding-top: 250px;
+}
+
+@media screen and (max-width : 1200px){
+    .whyus{
+    padding-top: 200px;
+
+    }
+    
+}
+@media screen and (max-width : 993px){
+    .whyus{
+    padding-top: 150px;
+
+    }
+    
+}
+@media screen and (max-width : 768px){
+    .whyus{
+    padding-top: 100px;
+
+    }
+    
+}
+@media screen and (max-width: 500px){
+.whyus {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+}

@@ -1,0 +1,50 @@
+
+.advantage-box {
+    width: 19%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.advantage-box .box-img {
+    width: 50%;
+    margin: auto;
+}
+
+.advantage-box .advan-title {
+    font-size: 20px;
+    font-family: 'Myriad Pro Semibold';
+    text-transform: uppercase;
+    line-height: normal;
+    margin: 15px 0;
+    color: #000000;
+}
+.advantage-box .box-content p{
+   
+        margin: 0;
+        color: #BCBEC0;
+        font-family: 'Myriad Pro Regular';
+        font-size: 15px;
+        line-height: 20px;
+
+}
+
+
+@media screen and (max-width : 1200px) {
+    .advantage-box{
+        width: 33%;
+    }
+    
+}
+@media screen and (max-width : 993px) {
+    .advantage-box{
+        width: 47%;
+    
+    }
+    
+}
+@media screen and  (max-width : 500px){
+    .advantage-box{
+        width: 100%;
+        margin-top: 20px;
+    }
+}

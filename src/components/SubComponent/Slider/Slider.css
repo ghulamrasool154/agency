@@ -1,0 +1,96 @@
+button.slick-arrow.slick-next,
+button.slick-arrow.slick-prev {
+  display: none !important;
+}
+
+.SlickSlider {
+  text-align: center;
+}
+
+.SlickSlider h2 {
+  font-size: 80px;
+  color: #fdfeff;
+  font-family: "Myriad Pro Bold";
+  text-transform: uppercase;
+  line-height: 100px;
+}
+.SlickSlider p {
+  font-family: "Myriad Pro Regular";
+  font-size: 20px;
+  line-height: 30px;
+  color: #fdfeff;
+}
+.SlickSlider .readmoreButton {
+  background: #febd19;
+  padding: 8px 30px 3px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Myriad Pro Regular";
+  text-transform: uppercase;
+  display: inline-block;
+  color: #000000;
+  box-shadow: 0px 5px 0px 0px #fe831c;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: white;
+}
+
+.slick-dots li button:before {
+  font-size: 30px;
+  color: #ffff;
+  opacity: 0.33;
+}
+.slick-dots li {
+  width: 30px;
+  height: 30px;
+  margin: 0 3px;
+}
+.slick-dots {
+  bottom: 0;
+  position: revert;
+  margin-bottom: 20px;
+}
+
+@media screen  and (max-width : 1200px){
+    .SlickSlider h2{
+        font-size: 55px;
+        line-height: normal;
+    }
+    
+}
+@media screen and (max-width : 993px) {
+    .SlickSlider p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+}
+
+@media screen and (max-width : 768px){
+    .SlickSlider h2{
+        font-size: 40px;
+        line-height: normal;
+    }
+    .slick-dots li button:before{
+        font-size: 20px;
+    }
+    .slick-dots li {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width : 500px){
+    .SlickSlider h2{
+        font-size: 30px;
+        line-height: normal;
+    }.SlickSlider p{
+        font-size: 15px;
+    }
+
+}

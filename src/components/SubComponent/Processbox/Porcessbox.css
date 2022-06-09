@@ -1,0 +1,92 @@
+.process-box {
+    width: 14%;
+    text-align: center;
+}
+.process-box .imgbox{
+    position: relative;
+}
+.process-box .imgbox img{
+        width: 60%;
+}
+
+.imgbox:before {
+    content: "";
+    width: 65%;
+    height: 4px;
+    background: #d2d3d5;
+    position: absolute;
+    top: 50%;
+    left: 79%;
+}
+/* .process-box .imgbox:last-child {
+    display: none;
+} */
+/* .process-wrapper .imgbox:nth-child(6){
+    display: none
+} */
+
+
+
+
+.process-box .imgbox .iconbox {
+    width: 35px;
+    line-height: 35px;
+    background: #febd19;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.process-box .imgbox .iconbox i{
+    color: #000103;
+}
+
+.process-box .imgcontent h3 {
+    font-size: 20px;
+    font-family: 'Myriad Pro Semibold';
+    text-transform: uppercase;
+    line-height: normal;
+    margin: 15px 0;
+    color: #000000;
+}
+.process-box .imgcontent p{
+    margin: 0;
+    color: #BCBEC0;
+    font-family: 'Myriad Pro Regular';
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+@media screen and (max-width : 1200px){
+    .process-box {
+        width: 30%;
+        margin-top: 50px;
+    }
+    .process-box .imgbox::before{
+        display: none;
+    }
+    .process .process-wrapper{
+        margin-top: 0;
+    }
+    .process-box .imgbox img{
+        width: auto;
+    }
+    
+    
+}
+
+@media screen  and (max-width : 500px){
+    .process-box {
+        width: 40%;
+    }
+}
+
+@media screen  and (max-width : 500px){
+    .process-box {
+        width: 100%;
+    }
+}

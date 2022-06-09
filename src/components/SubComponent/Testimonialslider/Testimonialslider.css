@@ -1,0 +1,63 @@
+.silder-box {
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+  .silder-box .imgsider {
+    width: 25%;
+}
+.silder-box .imgsider img {
+    width: 50%;
+}
+
+.bL{
+    border-left: 1px solid #d2d3d5;
+}
+.bR{
+    border-right: 1px solid #d2d3d5;
+}
+.bB{
+    border-bottom: 1px solid #d2d3d5;
+}
+.bT{
+    border-top: 1px solid #d2d3d5;
+}
+
+.silder-box .slider-context {
+    width: 75%;
+    padding-right: 50px;
+}
+
+.rightside .silder-box .imgsider{
+    margin-left: 20px;
+
+}
+.slider-context h3{
+    font-size: 20px;
+    font-family: 'Myriad Pro Semibold';
+    text-transform: uppercase;
+    line-height: normal;
+    color: #000000;
+}
+.slider-context p{
+    margin: 0;
+    color: #231f20;
+    font-family: 'Myriad Pro Regular';
+    font-size: 15px;
+    line-height: 20px;
+}
+@media screen  and (max-width : 768px){
+    .bL,
+    .bT,
+    .bB,
+    .bR{
+    border: none;
+    }
+    .rightside .silder-box .imgsider{
+        margin-left: 0;
+    }
+    .silder-box .slider-context{
+        padding-right: 0;
+    }
+}

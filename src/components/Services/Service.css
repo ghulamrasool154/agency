@@ -1,0 +1,26 @@
+
+.serviceboc-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.service .servicerow {
+    margin-top: 80px;
+}
+
+
+
+
+@media screen and (max-width : 1200px) {
+ section.service{
+    padding-bottom: 20px;
+    }    
+}
+
+
+@media screen and (max-width : 768px) {
+    section.service{
+       padding-bottom: 00px;
+       }    
+   }
