@@ -18,6 +18,10 @@
     top: 50%;
     left: 79%;
 }
+.process-box:last-child .imgbox:before {
+    display: none;
+}
+
 /* .process-box .imgbox:last-child {
     display: none;
 } */

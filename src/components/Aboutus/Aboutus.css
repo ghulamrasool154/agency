@@ -35,7 +35,18 @@ section.aboutus{
     margin-bottom: 60px;
 }
 
+@media screen and (max-width : 1400px) {
+    .aboutrightside {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+}
 @media screen  and (max-width : 993px){
+    .aboutrightside {
+        display:inherit;
+     }
     .leftsideabout{
 padding-right: 0;
 

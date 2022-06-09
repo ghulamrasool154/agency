@@ -89,11 +89,12 @@ header .bottom .logo {
   text-decoration: none;
   color: #000000;
   cursor: pointer;
+  text-shadow: 0.5px 0px white;
 }
 
 .navbarside ul a.navlink:hover {
-  font-family: "Myriad Pro bold";
   font-size: 16px;
+  text-shadow: 0.5px 0px #000000
 }
 
 .responsiveicons {
